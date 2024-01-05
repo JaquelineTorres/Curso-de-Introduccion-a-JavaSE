@@ -17,7 +17,7 @@ public class Functions {
         System.out.println((4/3)*Math.PI*Math.pow(y,3));*/
         System.out.println("sphere Volumen: " + sphereVolume(y));
 
-        System.out.println("Pesos a dolares: " + convertToDolar(1000, "COP"));
+        System.out.println("Pesos a dólares: " + convertToDolar(1000, "COP"));
     }
 
     /**
@@ -41,7 +41,7 @@ public class Functions {
     /**
      * @param r Radio de la esféra
      * @author Jaqueline
-     * Description: Función que calcula el volumen de una esféra
+     * Description: Función que calcula el volumen de una esféra.
      * */
     public static double sphereVolume(double r) {
         return ((double) 4 /3) * Math.PI * Math.pow(r, 3);
