@@ -5,6 +5,10 @@ public class DoWhileLoop {
 
         int response = 0;
 
+        /**
+         * @author Jaqueline
+         * Description: Menú que permite selecionar entre "MOvies, Series" o salir del programa
+         * */
         do {
             System.out.println("Selecciona el numero de la opción deseada: ");
             System.out.println("1. Movies");
